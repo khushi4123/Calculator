@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(44, 43, 43);
+   height: 30em;
+}
+
+#btn
+{
+    width: 64px;
+    height: 60px;
+    margin: 2px;
+    font-size: 20px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    box-shadow: 3px 3px  black;
+}
+
+#btn1
+{
+    font-size: 20px;
+    width: 135px;
+    height: 60px;
+    padding:10px;
+    margin: 2px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(244, 11, 11);
+    box-shadow: 2px 2px black;
+}
+#btn2
+{
+    font-size: 20px;
+    width: 64px;
+    height: 130px;
+    padding:10px;
+    margin: 2px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+#btn3
+{
+    font-size: 20px;
+    width: 135px;
+    height: 60px;
+    padding:10px;
+    margin: 2px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(240, 233, 233);
+    box-shadow: 2px 2px black;
+}
+.container
+{
+   background-color: rgb(33, 31, 31);
+   width: 20em;
+   
+   margin: 10% auto;
+   padding: 20px;
+
+}
+.button{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.display
+{
+    padding: 10px;
+   
+    align-items: center;
+    display:flex ;
+    justify-content: center;
+} 
+.display input{
+    height: 60px;
+    width: 85%;
+    background-color:rgb(33, 31, 31);
+    border: 0;
+    color: white;
+    font-size: 28px;
+}
+
